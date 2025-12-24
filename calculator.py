@@ -1,4 +1,6 @@
-form add import add
+from add import add
+from subtract import subtract
 
-print("calculator")
+print("Calculator")
+print(subtract(5,1))
 print(add(1,2))
